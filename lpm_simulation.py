@@ -225,8 +225,8 @@ def update(frame):
     # axes[3].axis('off')
 
 # Set up the animation
-ani = FuncAnimation(fig, update, frames=num_days, repeat=False, interval=100)
-HTML(ani.to_jshtml())
+# ani = FuncAnimation(fig, update, frames=num_days, repeat=False, interval=100)
+# HTML(ani.to_jshtml())
 
 # Set up the animation with a slower interval
 ani = FuncAnimation(fig, update, frames=num_days, repeat=False, interval=500)  # Increase interval for slower animation
